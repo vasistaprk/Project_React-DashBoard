@@ -25,7 +25,7 @@ const Topbar=()=>{
             borderRadius="3px"
         >
             <InputBase sx={{ml:2, flex:1}} placeholder="Search"></InputBase>
-            <IconButton type="button" sx = {{p:1}}>
+            <IconButton type="button" sx = {{p:1}} >
                 <SearchOutlined />
             </IconButton>
         </Box>
