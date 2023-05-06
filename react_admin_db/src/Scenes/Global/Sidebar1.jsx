@@ -123,21 +123,21 @@ const Sidebar1=()=>{
             </Typography>
             <Item
               title="Manage Team"
-              to="../Team"
+              to="../Team/index.jsx"
               icon={<PeopleOutlined />}
               selected={selected}
               setSelected={setSelected}
             />
             <Item
               title="Contacts Information"
-              to="/contacts"
+              to="../Contacts"
               icon={<ContactsOutlined />}
               selected={selected}
               setSelected={setSelected}
             />
             <Item
               title="Invoices Balances"
-              to="/invoices"
+              to="../Invoices"
               icon={<ReceiptOutlined />}
               selected={selected}
               setSelected={setSelected}
@@ -152,14 +152,14 @@ const Sidebar1=()=>{
             </Typography>
             <Item
               title="Profile Form"
-              to="/form"
+              to="../Form"
               icon={<PersonOutlined />}
               selected={selected}
               setSelected={setSelected}
             />
             <Item
               title="Calendar"
-              to="/calendar"
+              to="../Calendar"
               icon={<CalendarTodayOutlined />}
               selected={selected}
               setSelected={setSelected}
@@ -181,28 +181,28 @@ const Sidebar1=()=>{
             </Typography>
             <Item
               title="Bar Chart"
-              to="/bar"
+              to="../Bar"
               icon={<BarChartOutlined />}
               selected={selected}
               setSelected={setSelected}
             />
             <Item
               title="Pie Chart"
-              to="/pie"
+              to="../Pie"
               icon={<PieChartOutlined />}
               selected={selected}
               setSelected={setSelected}
             />
             <Item
               title="Line Chart"
-              to="/line"
+              to="../Line"
               icon={<TimelineOutlined />}
               selected={selected}
               setSelected={setSelected}
             />
             <Item
               title="Geography Chart"
-              to="/geography"
+              to="../Geography"
               icon={<MapOutlined />}
               selected={selected}
               setSelected={setSelected}
