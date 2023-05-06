@@ -4,7 +4,7 @@ import Topbar from "./Scenes/Global/Topbar";
 import Sidebar1 from "./Scenes/Global/Sidebar1";
 import DashBoard from "./Scenes/DashBoard";
 import {Routes, Route} from "react-router-dom";
-// import Team from "./Scenes/Team";
+import Team from "./Scenes/Team";
 // import Invoices from "./Scenes/Invoices";
 // import Contacts from "./Scenes/Contacts";
 // import Bar from "./Scenes/Bar";
@@ -30,7 +30,7 @@ function App() {
         <Topbar />
         <Routes>
           <Route path = "/" element={<DashBoard />} />
-          {/* <Route path = "/Team" element={<Team />} /> */}
+          <Route path = "/Team" element={<Team />} />
           {/* <Route path = "/Invoices" element={<Invoices />} /> */}
           {/* <Route path = "/Contacts" element={<Contacts />} /> */}
           {/* <Route path = "/Form" element={<Form />} /> */}
